@@ -1,0 +1,11 @@
+/* Global */
+@import url("./global.css");
+@import url("./header.css");
+@import url("./sidebar.css");
+
+/* Landing Page */
+@import url("./landing-page.css");
+
+/* Curriculo */
+@import url("./curriculo.css");
+@import url("./waitlist.css");

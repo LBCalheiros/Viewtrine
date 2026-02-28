@@ -1,0 +1,124 @@
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 152px auto;
+  height: 100vh;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #6c37fb;
+  padding: 16px 40px;
+  border-radius: 40px;
+  color: #fefefe;
+  font-size: 0.875rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  transition: 0.2s;
+  box-sizing: border-box;
+  text-wrap: nowrap;
+}
+.botao:hover {
+  background-color: #9169fc;
+}
+
+.botao-borda-roxa {
+  display: inline-block;
+  border: #6c37fb 1px solid;
+  padding: 16px 40px;
+  border-radius: 40px;
+  color: #6c37fb;
+  font-size: 0.875rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  transition: 0.2s;
+  box-sizing: border-box;
+  text-wrap: nowrap;
+}
+.botao-borda-roxa:hover {
+  background-color: rgba(145, 105, 252, 0.15);
+}
+
+.botao-borda-branca {
+  display: inline-block;
+  border: #fefefe 1px solid;
+  padding: 16px 40px;
+  border-radius: 40px;
+  color: #fefefe;
+  font-size: 0.875rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  transition: 0.2s;
+  box-sizing: border-box;
+  text-wrap: nowrap;
+}
+.botao-borda-branca:hover {
+  background-color: rgba(254, 254, 254, 0.15);
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+.font-bold {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.font-regular {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.flex2 p {
+  font-size: 0.875rem;
+}
+
+.ativo {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}

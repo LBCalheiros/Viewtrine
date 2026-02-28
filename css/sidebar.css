@@ -1,0 +1,49 @@
+.sidebar {
+  display: grid;
+  grid-template-rows: 196px auto auto;
+  border-right: 1px solid #d3d3d3;
+  width: 152px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.upper-sidebar {
+  margin-top: 64px;
+  align-self: start;
+  justify-self: center;
+}
+
+.mid-sidebar {
+  align-self: start;
+  justify-self: center;
+}
+
+.links-sidebar li {
+  margin-bottom: 16px;
+}
+
+.sidebar-button {
+  padding: 16px;
+}
+
+.lower-sidebar {
+  justify-self: center;
+  align-self: end;
+  margin-bottom: 28px;
+}
+
+.linkAtivo {
+  position: relative;
+}
+
+.linkAtivo::after {
+  content: "";
+  background: #6c37fb;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  left: -110%;
+  top: 103%;
+  z-index: -1;
+}

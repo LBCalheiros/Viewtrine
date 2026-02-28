@@ -1,0 +1,37 @@
+.curriculo-grid {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+  gap: 96px;
+  margin: 48px;
+}
+
+.curriculo-content {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  place-items: start;
+  place-self: start;
+  display: inline-block;
+}
+
+.curriculo-content a {
+  margin-top: 80px;
+}
+
+.curriculo-texto {
+  color: #a8a8a8;
+  font-family: "Poppins";
+  font-size: 1rem;
+  margin: 48px 0 16px 0;
+  display: inline-block;
+}
+
+.curriculo-titulo {
+  color: #1a1a1a;
+  font-family: "Poppins";
+  font-size: 3rem;
+}
+
+.curriculo-grid img {
+  width: 100%;
+  height: calc(100vh - 248px);
+}
